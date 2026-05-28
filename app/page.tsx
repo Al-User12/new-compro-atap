@@ -59,7 +59,7 @@ const SECTION_HEADINGS = {
   process: "Our process",
   showcase: "Showcase",
   testimonials: "Testimonials",
-  cta: "Ready to start?",
+  cta: "Let's Create Something Amazing Together",
 } as const;
 
 /**

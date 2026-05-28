@@ -301,31 +301,61 @@ export const brand: Brand = {
 
   showcase: [
     {
-      title: "JustJuice Lab",
-      category: "Account Handling",
+      title: "Sarangan Official",
+      category: "Destination Campaign",
       image: {
         src: "/placeholder-showcase.svg",
-        alt: "JustJuice Lab social media management showcase",
+        alt: "Sarangan Official portfolio showcase",
         width: 800,
         height: 1000,
       },
     },
     {
-      title: "Info Loker Madiun",
-      category: "Account Handling",
+      title: "Omah Turu",
+      category: "Hospitality Brand",
       image: {
         src: "/placeholder-showcase.svg",
-        alt: "Info Loker Madiun social media management showcase",
+        alt: "Omah Turu portfolio showcase",
         width: 800,
         height: 1000,
       },
     },
     {
-      title: "Omah Turu Joglo",
-      category: "Account Handling",
+      title: "Juat Juice",
+      category: "F&B Campaign",
       image: {
         src: "/placeholder-showcase.svg",
-        alt: "Omah Turu Joglo social media management showcase",
+        alt: "Juat Juice portfolio showcase",
+        width: 800,
+        height: 1000,
+      },
+    },
+    {
+      title: "Surabaya Domino Tournament 2026",
+      category: "Event Activation",
+      image: {
+        src: "/placeholder-showcase.svg",
+        alt: "Surabaya Domino Tournament 2026 portfolio showcase",
+        width: 800,
+        height: 1000,
+      },
+    },
+    {
+      title: "Teh Kota Indonesia",
+      category: "Consumer Brand",
+      image: {
+        src: "/placeholder-showcase.svg",
+        alt: "Teh Kota Indonesia portfolio showcase",
+        width: 800,
+        height: 1000,
+      },
+    },
+    {
+      title: "Double O Bakery",
+      category: "F&B Brand",
+      image: {
+        src: "/placeholder-showcase.svg",
+        alt: "Double O Bakery portfolio showcase",
         width: 800,
         height: 1000,
       },
@@ -356,11 +386,11 @@ export const brand: Brand = {
   ],
 
   colors: {
-    primary:    "#1F2C43",
-    accent:     "#7E8772",
-    background: "#DCD7D4",
-    foreground: "#1F2C43",
-    muted:      "rgb(220 215 212 / 0.6)",
+    primary:    "#1E2E4E",
+    accent:     "#6F7C8F",
+    background: "#F3F3F4",
+    foreground: "#1E2E4E",
+    muted:      "rgb(217 217 217 / 0.6)",
   },
 
   fonts: {
@@ -370,7 +400,13 @@ export const brand: Brand = {
   },
 
   assets: {
-    // Assets (logo, ogImage, heroVisual) will be provided via brand Canva design files.
+    logoSvg: "/logo.svg",
+    heroVisual: {
+      src: "/placeholder-showcase.svg",
+      alt: "Atap Kreatif Manajemen monochrome editorial brand visual",
+      width: 1200,
+      height: 900,
+    },
   },
 
   seo: {
