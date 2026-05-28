@@ -1,5 +1,3 @@
-// TODO(brand): brand.assets.ogImage — supply OpenGraph image
-//
 // lib/metadata.ts
 //
 // Builds the Next.js `Metadata` object consumed by `app/layout.tsx`.
@@ -97,6 +95,7 @@ export function buildMetadata(): Metadata {
 
   if (siteUrl !== null) {
     metadata.alternates = { canonical: siteUrl };
+    metadata.metadataBase = new URL(siteUrl);
   }
 
   return metadata;
