@@ -296,8 +296,26 @@ export const brand: Brand = {
     },
   ],
 
-  // TODO(brand): brand.testimonials — Source_Doc testimonial entries (omit field or supply complete entries)
-  testimonials: [],
+  testimonials: [
+    {
+      quote:
+        "Pelayanan cepat, komunikasi jelas, dan hasil akhir jauh di atas ekspektasi kami.",
+      name: "Fahry Raya",
+      role: "CEO, Lampionspic",
+    },
+    {
+      quote:
+        "Tim yang sangat profesional dan responsif. Brand kami kini memiliki identitas digital yang jauh lebih kuat dan strategi digitalisasinya tertata rapi.",
+      name: "Fuad Hasan",
+      role: "RnD, Teh Kota",
+    },
+    {
+      quote:
+        "Strategi dan ide-ide digital marketing mereka berhasil meningkatkan engagement kami hingga 300% dalam 1 bulan.",
+      name: "Dewi Sekartaji",
+      role: "Manager, TBSM",
+    },
+  ],
 
   showcase: [
     {
@@ -321,11 +339,11 @@ export const brand: Brand = {
       },
     },
     {
-      title: "Juat Juice",
+      title: "Just Juice",
       category: "F&B Campaign",
       image: {
-        src: "/showcase-juat-juice.png",
-        alt: "Juat Juice F&B product still life editorial visual",
+        src: "/showcase-just-juice.png",
+        alt: "Just Juice F&B product still life editorial visual",
         width: 1024,
         height: 1024,
       },
