@@ -304,60 +304,60 @@ export const brand: Brand = {
       title: "Sarangan Official",
       category: "Destination Campaign",
       image: {
-        src: "/placeholder-showcase.svg",
-        alt: "Sarangan Official portfolio showcase",
-        width: 800,
-        height: 1000,
+        src: "/showcase-sarangan-official.png",
+        alt: "Sarangan Official destination campaign editorial visual",
+        width: 1024,
+        height: 1024,
       },
     },
     {
       title: "Omah Turu",
       category: "Hospitality Brand",
       image: {
-        src: "/placeholder-showcase.svg",
-        alt: "Omah Turu portfolio showcase",
-        width: 800,
-        height: 1000,
+        src: "/showcase-omah-turu.png",
+        alt: "Omah Turu hospitality brand interior editorial visual",
+        width: 1024,
+        height: 1024,
       },
     },
     {
       title: "Juat Juice",
       category: "F&B Campaign",
       image: {
-        src: "/placeholder-showcase.svg",
-        alt: "Juat Juice portfolio showcase",
-        width: 800,
-        height: 1000,
+        src: "/showcase-juat-juice.png",
+        alt: "Juat Juice F&B product still life editorial visual",
+        width: 1024,
+        height: 1024,
       },
     },
     {
       title: "Surabaya Domino Tournament 2026",
       category: "Event Activation",
       image: {
-        src: "/placeholder-showcase.svg",
-        alt: "Surabaya Domino Tournament 2026 portfolio showcase",
-        width: 800,
-        height: 1000,
+        src: "/showcase-surabaya-domino-tournament.png",
+        alt: "Surabaya Domino Tournament 2026 event activation editorial visual",
+        width: 1024,
+        height: 1024,
       },
     },
     {
       title: "Teh Kota Indonesia",
       category: "Consumer Brand",
       image: {
-        src: "/placeholder-showcase.svg",
-        alt: "Teh Kota Indonesia portfolio showcase",
-        width: 800,
-        height: 1000,
+        src: "/showcase-teh-kota-indonesia.png",
+        alt: "Teh Kota Indonesia consumer brand editorial visual",
+        width: 1024,
+        height: 1024,
       },
     },
     {
       title: "Double O Bakery",
       category: "F&B Brand",
       image: {
-        src: "/placeholder-showcase.svg",
-        alt: "Double O Bakery portfolio showcase",
-        width: 800,
-        height: 1000,
+        src: "/showcase-double-o-bakery.png",
+        alt: "Double O Bakery artisan brand editorial visual",
+        width: 1024,
+        height: 1024,
       },
     },
   ],
@@ -385,11 +385,15 @@ export const brand: Brand = {
     },
   ],
 
+  // Official Pantone palette from brand guideline (Canva slide 5).
+  //   - #1F2C43 — Pageant Blue (Pantone 19-4111 TCX, sRGB 31 44 67)
+  //   - #DCD7D4 — Catacomb Walls (Pantone Cool Gray 1 C, sRGB 220 215 212)
+  //   - #7E8772 — Matte Green (Pantone 17-0112 TSX, sRGB 126 135 114)
   colors: {
-    primary:    "#1E2E4E",
+    primary:    "#1F2C43",
     accent:     "#7E8772",
     background: "#DCD7D4",
-    foreground: "#1E2E4E",
+    foreground: "#1F2C43",
     muted:      "rgb(220 215 212 / 0.6)",
   },
 
@@ -401,6 +405,7 @@ export const brand: Brand = {
 
   assets: {
     logoSvg: "/logo.svg",
+    ogImage: "/og-image.png",
     heroVisual: {
       src: "/hero-editorial.png",
       alt: "Atap Kreatif Manajemen creative team collaborating in a modern office",
