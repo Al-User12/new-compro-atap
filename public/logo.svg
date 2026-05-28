@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
-  <rect width="160" height="160" rx="32" fill="#1F2C43"/>
-  <!-- Roof / arched A geometry from brand mark -->
-  <path d="M80 30 C 96 30 110 38 118 52 L 102 60 C 97 51 89 46 80 46 C 71 46 63 51 58 60 L 42 52 C 50 38 64 30 80 30 Z" fill="#DCD7D4"/>
-  <path d="M80 56 L 116 110 L 96 110 L 80 84 L 64 110 L 44 110 Z" fill="#DCD7D4"/>
-  <circle cx="80" cy="38" r="5" fill="#7E8772"/>
-  <path d="M48 122 Q 80 138 112 122" stroke="#DCD7D4" stroke-width="6" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 160 160"><rect width="160" height="160" fill="#1F2C43" rx="32"/><path fill="#DCD7D4" d="M80 30 C 96 30 110 38 118 52 L 102 60 C 97 51 89 46 80 46 C 71 46 63 51 58 60 L 42 52 C 50 38 64 30 80 30 Z"/><path fill="#DCD7D4" d="M80 56 L 116 110 L 96 110 L 80 84 L 64 110 L 44 110 Z"/><circle cx="80" cy="38" r="5" fill="#7E8772"/><path stroke="#DCD7D4" stroke-linecap="round" stroke-width="6" d="M48 122 Q 80 138 112 122"/></svg>
