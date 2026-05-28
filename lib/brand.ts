@@ -402,10 +402,10 @@ export const brand: Brand = {
   assets: {
     logoSvg: "/logo.svg",
     heroVisual: {
-      src: "/placeholder-showcase.svg",
-      alt: "Atap Kreatif Manajemen monochrome editorial brand visual",
-      width: 1200,
-      height: 900,
+      src: "/hero-editorial.png",
+      alt: "Atap Kreatif Manajemen creative team collaborating in a modern office",
+      width: 1536,
+      height: 1024,
     },
   },
 
