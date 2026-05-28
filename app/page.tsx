@@ -38,6 +38,7 @@ import Showcase from "@/components/Showcase";
 import Solution from "@/components/Solution";
 import Testimonials from "@/components/Testimonials";
 import Trust from "@/components/Trust";
+import VisionMission from "@/components/VisionMission";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 /**
@@ -50,6 +51,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
  */
 const SECTION_HEADINGS = {
   trust: "Distribution & KOL Database",
+  visionMission: "Vision & Mission",
   problem: "The challenge of fragmented execution",
   solution: "An integrated digital ecosystem",
   services: "Services",
@@ -57,7 +59,21 @@ const SECTION_HEADINGS = {
   process: "Our process",
   showcase: "Showcase",
   testimonials: "Testimonials",
-  cta: "Ready to start?",
+  cta: "Let's Create Something Amazing Together",
+} as const;
+
+/**
+ * Editorial body copy for the Problem and Solution sections. These are
+ * narrative bridges that connect the data-driven Trust block above to the
+ * Services grid below, so they live in the page composition file alongside
+ * `SECTION_HEADINGS` rather than inside `brand` (which is reserved for
+ * brand-identity content sourced from the Source_Doc).
+ */
+const SECTION_BODIES = {
+  problem:
+    "Brands juggle disconnected vendors for buzzers, content clipping, KOLs, paid ads, development, and creative production. The result is a fragmented stack that drains time, dilutes the brand voice, and makes campaigns hard to measure end-to-end.",
+  solution:
+    "Atap Kreatif Manajemen brings buzzer networks, clippers, KOL databases, advertising, development, and creative production into one accountable workflow — so every campaign moves with consistency, speed, and measurable impact.",
 } as const;
 
 export default function Home() {
@@ -97,20 +113,16 @@ export default function Home() {
           kol={brand.kolDatabase}
         />
 
+        <VisionMission heading={SECTION_HEADINGS.visionMission} />
+
         <Problem
           heading={SECTION_HEADINGS.problem}
-          // No `brand.problem.body` slot exists yet; passing an empty
-          // string triggers the Problem component's structural
-          // placeholder + its own `TODO(brand):` marker (Req 1.5, 10.5).
-          body=""
+          body={SECTION_BODIES.problem}
         />
 
         <Solution
           heading={SECTION_HEADINGS.solution}
-          // No `brand.solution.body` slot exists yet; passing an empty
-          // string triggers the Solution component's structural
-          // placeholder + its own `TODO(brand):` marker (Req 1.5, 10.5).
-          body=""
+          body={SECTION_BODIES.solution}
           pillars={brand.whyChooseUs}
         />
 

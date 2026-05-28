@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Showcase placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F2C43"/>
+      <stop offset="100%" stop-color="#2A3A55"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0L0 0 0 40" fill="none" stroke="#7E8772" stroke-opacity="0.18" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#grid)"/>
+  <g transform="translate(400 480)" text-anchor="middle">
+    <text font-family="Poppins, system-ui, sans-serif" font-size="72" font-weight="700" fill="#DCD7D4" letter-spacing="-2">ATAP</text>
+    <text y="80" font-family="Poppins, system-ui, sans-serif" font-size="72" font-weight="700" fill="#7E8772" letter-spacing="-2">KREATIF</text>
+  </g>
+  <g transform="translate(400 620)" text-anchor="middle">
+    <text font-family="Helvetica, Arial, sans-serif" font-size="20" letter-spacing="6" fill="#DCD7D4" fill-opacity="0.7">SHOWCASE</text>
+  </g>
+</svg>
