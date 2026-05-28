@@ -153,8 +153,7 @@ export const brand: Brand = {
   wordmark: "ATAP KREATIF",
   locale: "id-ID",
 
-  // TODO(brand): brand.tagline — Source_Doc tagline (1–150 chars)
-  tagline: "",
+  tagline: "Your Integrated Digital Growth Partner",
 
   description:
     "Atap Kreatif Manajemen is a creative and digital marketing agency based in Madiun, " +
@@ -175,50 +174,85 @@ export const brand: Brand = {
     {
       id: "buzzer",
       title: "Buzzer Distribution",
-      // TODO(brand): brand.services[buzzer].summary — Source_Doc 80–280 char summary
-      summary: "",
-      // TODO(brand): brand.services[buzzer].items — Source_Doc 3–8 deliverable bullets
-      items: [],
+      summary:
+        "Digital Activation & Community Support is a strategic service that combines our internal account database with an active community network to maximize campaign reach, engagement, and participation across multiple digital platforms. In addition to leveraging our managed account database, we also collaborate with select communities across various niches, ensuring campaigns feel more organic, relevant, and aligned with actual audience behavior.",
+      items: [
+        "Engagement & Interaction Activation",
+        "Photo & Video Content Posting",
+        "Photo & Video Content Creation",
+        "Marketplace Voting & Ranking Support",
+        "App Store & Google Maps Review Activation",
+        "Community-Based Monitoring & Reporting",
+      ],
     },
     {
       id: "clipping",
       title: "Content Clipping",
-      // TODO(brand): brand.services[clipping].summary — Source_Doc 80–280 char summary
-      summary: "",
-      // TODO(brand): brand.services[clipping].items — Source_Doc 3–8 deliverable bullets
-      items: [],
+      summary:
+        "Clipper is a content distribution service focused on repurposing curated content into short-form content for social media distribution. This service is typically used for brand campaigns, product promotions, and commercial marketing activities that require efficient content production and consistent brand exposure.",
+      items: [
+        "Short-form content production from podcasts, interviews, live broadcasts, and documentaries",
+        "Key moment extraction and repackaging",
+        "Distribution through selected internal accounts",
+        "Content optimization and message consistency",
+        "Sustained exposure campaigns",
+      ],
     },
     {
       id: "talent",
       title: "Talent Management",
-      // TODO(brand): brand.services[talent].summary — Source_Doc 80–280 char summary
-      summary: "",
-      // TODO(brand): brand.services[talent].items — Source_Doc 3–8 deliverable bullets
-      items: [],
+      summary:
+        "We provide a comprehensive database of KOLs at various levels, from non-followers (0–999 followers) to mega-influencers, spread across regions such as Greater Jakarta (Jabodetabek), Surabaya, Bandung, and other tier-2 cities in Indonesia. With a diverse talent pool, brands can select KOLs that best suit their campaign needs and target market.",
+      items: [
+        "Available Across All Social Media Platforms",
+        "Engagement Boosting (Comments, Likes, Shares & Saves)",
+        "Photo & Video Content Posting",
+        "Photo & Video Content Creation",
+        "Live Streaming",
+      ],
     },
     {
       id: "ads",
       title: "Digital Advertising",
-      // TODO(brand): brand.services[ads].summary — Source_Doc 80–280 char summary
-      summary: "",
-      // TODO(brand): brand.services[ads].items — Source_Doc 3–8 deliverable bullets
-      items: [],
+      summary:
+        "Data-driven advertising services focused on planning, executing, and optimizing paid media campaigns to deliver measurable growth, performance, and conversions.",
+      items: [
+        "Paid Advertising (Meta Ads, TikTok Ads, Google Ads)",
+        "Media Planning & Budget Allocation",
+        "Audience Targeting & Funnel Strategy",
+        "Creative Testing & Ad Optimization",
+        "Performance Monitoring & Analytics",
+        "Reporting, Insights & Campaign Optimization",
+      ],
     },
     {
       id: "dev",
       title: "Development",
-      // TODO(brand): brand.services[dev].summary — Source_Doc 80–280 char summary
-      summary: "",
-      // TODO(brand): brand.services[dev].items — Source_Doc 3–8 deliverable bullets
-      items: [],
+      summary:
+        "Technology-based services that provide scalable digital solutions to support business operations, brand growth, and digital transformation.",
+      items: [
+        "Website Development",
+        "Social Media Handling",
+        "Landing Page Development",
+        "Digital System & Automation",
+        "UI/UX Design Support",
+      ],
     },
     {
       id: "creative",
       title: "Creative Production",
-      // TODO(brand): brand.services[creative].summary — Source_Doc 80–280 char summary
-      summary: "",
-      // TODO(brand): brand.services[creative].items — Source_Doc 3–8 deliverable bullets
-      items: [],
+      summary:
+        "We already have buzzers, KOLs, advertisements, and more, so we can also provide end-to-end content production services tailored to your brand needs.",
+      items: [
+        "Creative Concept Development",
+        "Content Planning & Campaign Ideation",
+        "Video Production",
+        "Photography",
+        "Motion Graphic Design",
+        "Copywriting & Scriptwriting",
+        "Short-Form Content Production",
+        "Branding & Visual Identity Design",
+      ],
     },
   ],
 
@@ -254,35 +288,70 @@ export const brand: Brand = {
       "Jl. Cokrokusumo No. 2a, Kelurahan Kuncen, Kecamatan Taman, Kota Madiun, Jawa Timur",
   },
 
-  // TODO(brand): brand.social — Source_Doc social handles (0–8 entries)
-  social: [],
+  social: [
+    {
+      platform: "Instagram",
+      href: "https://www.instagram.com/atapkreatifmanagement",
+      label: "@atapkreatifmanagement",
+    },
+  ],
 
   // TODO(brand): brand.testimonials — Source_Doc testimonial entries (omit field or supply complete entries)
   testimonials: [],
 
-  // TODO(brand): brand.showcase — Source_Doc portfolio entries (e.g. justjuice lab, info loker madiun, omah turu joglo)
-  showcase: [],
+  showcase: [
+    {
+      title: "JustJuice Lab",
+      category: "Account Handling",
+      image: {
+        src: "/placeholder-showcase.svg",
+        alt: "JustJuice Lab social media management showcase",
+        width: 800,
+        height: 1000,
+      },
+    },
+    {
+      title: "Info Loker Madiun",
+      category: "Account Handling",
+      image: {
+        src: "/placeholder-showcase.svg",
+        alt: "Info Loker Madiun social media management showcase",
+        width: 800,
+        height: 1000,
+      },
+    },
+    {
+      title: "Omah Turu Joglo",
+      category: "Account Handling",
+      image: {
+        src: "/placeholder-showcase.svg",
+        alt: "Omah Turu Joglo social media management showcase",
+        width: 800,
+        height: 1000,
+      },
+    },
+  ],
 
   whyChooseUs: [
     {
       title: "Integrated digital ecosystem",
-      // TODO(brand): brand.whyChooseUs[ecosystem].description — Source_Doc paragraph
-      description: "",
+      description:
+        "At Atap Kreatif Manajemen, we offer more than just digital services — we provide an integrated digital ecosystem supported by internal buzzer networks, curated clipper distribution, multi-level KOL databases, creative production, and paid advertising solutions in one management.",
     },
     {
       title: "Community-based activation",
-      // TODO(brand): brand.whyChooseUs[activation].description — Source_Doc paragraph
-      description: "",
+      description:
+        "Our strength lies in combining organic digital conversations, strategic content distribution, and fast execution to help brands gain wider exposure and stronger audience engagement across multiple platforms.",
     },
     {
       title: "Adaptive campaign strategies",
-      // TODO(brand): brand.whyChooseUs[adaptive].description — Source_Doc paragraph
-      description: "",
+      description:
+        "With community-based activation, adaptive campaign strategies, and measurable workflows, Atap Kreatif Manajemen is committed to delivering impactful, relevant, and scalable digital campaigns for every brand we work with.",
     },
     {
       title: "Measurable workflows",
-      // TODO(brand): brand.whyChooseUs[measurable].description — Source_Doc paragraph
-      description: "",
+      description:
+        "We focus not only on creating content, but also on building engagement, increasing brand exposure, and delivering campaigns that connect with the right audience effectively.",
     },
   ],
 
@@ -301,15 +370,13 @@ export const brand: Brand = {
   },
 
   assets: {
-    // TODO(brand): brand.assets.logoSvg — supply SVG logo asset path (e.g. "/brand/logo.svg")
-    // TODO(brand): brand.assets.ogImage — supply OpenGraph image asset path (e.g. "/brand/og-default.jpg")
-    // TODO(brand): brand.assets.heroVisual — supply hero visual { src, alt, width, height }
+    // Assets (logo, ogImage, heroVisual) will be provided via brand Canva design files.
   },
 
   seo: {
     title: "Atap Kreatif Manajemen — Creative & Digital Marketing Agency",
     description:
       "Atap Kreatif Manajemen integrates buzzers, clippers, KOLs, advertising, development, and creative production into one accountable workflow for brands in Madiun and beyond.",
-    // TODO(brand): brand.seo.siteUrl — production canonical site URL
+    siteUrl: "https://new-compro-atap.vercel.app",
   },
 };
