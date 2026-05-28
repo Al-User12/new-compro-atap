@@ -387,10 +387,10 @@ export const brand: Brand = {
 
   colors: {
     primary:    "#1E2E4E",
-    accent:     "#6F7C8F",
-    background: "#F3F3F4",
+    accent:     "#7E8772",
+    background: "#DCD7D4",
     foreground: "#1E2E4E",
-    muted:      "rgb(217 217 217 / 0.6)",
+    muted:      "rgb(220 215 212 / 0.6)",
   },
 
   fonts: {
